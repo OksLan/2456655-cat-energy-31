@@ -2,7 +2,7 @@
 
 * Студент: [Оксана Лановенко](https://up.htmlacademy.ru/adaptive/31/user/2456655).
 * Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/angra).
-* Сайт: [Мой проект Cat Energy](https://github.com/OksLan/2456655-cat-energy-31/).
+* Сайт: [Мой проект Cat-Energy] (https://github.com/OksLan/2456655-cat-energy-31/).
 
 ---
 
