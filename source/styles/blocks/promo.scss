@@ -2,13 +2,15 @@
   font-family: $font-secondary;
   text-align: center;
   color: $basic-white;
+  background-color: $basic-green;
 }
 
-.promo__slogan {
+.promo__title {
   font-size: 36px;
   line-height: 36px;
 }
 
 .promo__intro {
   line-height: 14px;
+  text-transform: uppercase;
 }
