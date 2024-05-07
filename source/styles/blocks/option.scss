@@ -16,6 +16,10 @@
   text-transform: uppercase;
 }
 
+.option__title {
+  position: relative;
+}
+
 .option__title::before {
   content: "";
   position: absolute;

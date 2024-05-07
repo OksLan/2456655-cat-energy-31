@@ -9,6 +9,10 @@
   list-style: none;
 }
 
+.special__list-item {
+  position: relative;
+}
+
 .special__list-item::before {
   content: "";
   position: absolute;
