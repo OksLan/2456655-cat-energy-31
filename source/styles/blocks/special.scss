@@ -4,3 +4,19 @@
   line-height: 40px;
   color: $basic-black;
 }
+
+.special__list {
+  list-style: none;
+}
+
+.special__list-item::before {
+  content: "";
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  background-color: $basic-green;
+}
