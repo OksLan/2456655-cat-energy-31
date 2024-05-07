@@ -1,0 +1,13 @@
+.nav-list {
+  font-family: $font-secondary;
+  font-size: 20px;
+  line-height: 20px;
+
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.nav-list__link {
+  text-decoration: none;
+  color: $basic-black;
+}
