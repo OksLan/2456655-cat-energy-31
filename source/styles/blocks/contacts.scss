@@ -1,13 +1,21 @@
+.contacts {
+  display: flex;
+  background-color: $basic-white;
+  padding: 26px 20px;
+}
+
 .contacts__intro {
   font-family: $font-secondary;
+  margin: 0;
+  width: 140px;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  color: $basic-black-1;
 }
 
-.contacts__text {
-  font-family: $font-primary;
-  font-size: 14px;
+.contacts__address {
+  font-style: normal;
   line-height: 20px;
+  width: 140px;
+  margin-left: auto;
 }

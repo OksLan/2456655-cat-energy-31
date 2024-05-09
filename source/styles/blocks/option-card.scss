@@ -1,0 +1,83 @@
+.option-card {
+  display: flex;
+  flex-direction: column;
+  padding: 21px 33px 18px 20px;
+  background-color: $basic-grey;
+}
+
+.option-card__content {
+  position: relative;
+}
+
+.option-card__content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: $basic-green;
+}
+
+.option-card__content--slim::after {
+  background-image: url("../../icons/stack.svg#cat-slim");
+  width: 36px;
+  height: 50px;
+  top: -2px;
+  left: 5px;
+  background-repeat: no-repeat;
+  position: absolute;
+  content: "";
+}
+
+.option-card__content--pro::after {
+  background-image: url("../../icons/stack.svg#cat-pro");
+  width: 67px;
+  height: 28px;
+  background-repeat: no-repeat;
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -9px;
+}
+
+.option-card__title {
+  font-family: $font-secondary;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 28px;
+  margin-left: 70px;
+  color: $basic-black;
+}
+
+.option-card__text {
+  color: $basic-black-2;
+}
+
+.option-card__link {
+  font-family: $font-secondary;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  position: relative;
+  text-decoration: none;
+  color: $basic-black;
+}
+
+.option-card__link::after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../icons/stack.svg#arrow");
+  width: 24px;
+  height: 12px;
+  top: 50%;
+  left: 95px;
+  transform: translateY(-50%);
+  background-size: contain;
+}

@@ -1,3 +1,7 @@
+.special {
+  position: relative;
+}
+
 .special__title {
   font-family: $font-secondary;
   font-size: 36px;
@@ -6,21 +10,55 @@
 }
 
 .special__list {
+  display: grid;
+  row-gap: 20px;
   list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 .special__list-item {
   position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  min-height: 60px;
 }
 
 .special__list-item::before {
   content: "";
   position: absolute;
-  background-position: center;
-  background-repeat: no-repeat;
   top: 0;
   left: 0;
   width: 60px;
   height: 60px;
   background-color: $basic-green;
+}
+
+.special__list-item--one::before {
+  background-image: url("../../icons/stack.svg#leaf");
+  background-size: 30px 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.special__list-item--two::before {
+  background-image: url("../../icons/stack.svg#powder");
+  background-size: 26px 29px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.special__list-item--three::before {
+  background-image: url("../../icons/stack.svg#eat");
+  background-size: 25px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.special__list-item--four::before {
+  background-image: url("../../icons/stack.svg#alarm");
+  background-size: 26px 31px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
