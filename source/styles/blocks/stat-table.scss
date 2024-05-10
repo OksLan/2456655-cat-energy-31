@@ -4,11 +4,14 @@
   text-align: center;
 }
 
-.stat-table__cost {
+.stat-table__text {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.stat-table__number {
   font-family: $font-secondary;
-  font-size: 14px;
-  line-height: 20px;
-  color: $basic-black;
-  text-align: center;
+  font-weight: 24px;
+  line-height: 24px;
   text-transform: uppercase;
 }
