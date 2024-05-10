@@ -1,5 +1,10 @@
 .banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: $basic-green;
+  margin: 0 auto;
+  min-height: 290px;
 }
 
 .banner__text {
@@ -8,4 +13,20 @@
   line-height: 20px;
   color: $basic-white;
   text-align: center;
+  position: relative;
+  margin-top: 186px;
+  width: 50%;
+}
+
+.banner__text::before {
+  content: "";
+  position: absolute;
+  background-image: url("../../icons/stack.svg#gift");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 78px;
+  height: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -120px;
 }

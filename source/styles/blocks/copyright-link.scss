@@ -24,8 +24,8 @@
   &:focus {
     color: $basic-green;
   }
+}
 
-  &:active {
-    color: rgba(104, 183, 56, 0.3);
-  }
+.copyright-link__icon:active {
+  color: rgba(104, 183, 56, 0.3);
 }

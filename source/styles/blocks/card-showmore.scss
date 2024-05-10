@@ -1,0 +1,16 @@
+.card-showmore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.card-showmore__title::before {
+  content: "";
+  display: block;
+  background-image: url("../../icons/stack.svg#plus");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  color: $special-grey-6;
+}

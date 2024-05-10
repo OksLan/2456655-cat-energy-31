@@ -1,0 +1,14 @@
+.stat-table {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.stat-table__cost {
+  font-family: $font-secondary;
+  font-size: 14px;
+  line-height: 20px;
+  color: $basic-black;
+  text-align: center;
+  text-transform: uppercase;
+}
