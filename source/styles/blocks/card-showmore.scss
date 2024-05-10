@@ -5,6 +5,12 @@
   padding: 0 20px;
 }
 
+.card-showmore__title {
+  font-family: $font-secondary;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .card-showmore__title::before {
   content: "";
   display: block;
