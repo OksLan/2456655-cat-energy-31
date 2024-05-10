@@ -16,7 +16,15 @@
   display: block;
   background-image: url("../../icons/stack.svg#plus");
   background-repeat: no-repeat;
+  background-position: center;
   width: 30px;
   height: 30px;
   color: $special-grey-6;
+  padding-left: 1600px;
+}
+
+.card-showmore__text {
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
 }
