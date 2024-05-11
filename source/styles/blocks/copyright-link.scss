@@ -18,5 +18,14 @@
 }
 
 .copyright-link__icon {
-  fill: #666666;
+  fill: $special-grey-5;
+
+  &:hover,
+  &:focus {
+    fill: $basic-green;
+  }
+
+  &:active {
+    fill: rgba(104, 183, 56, 0.3);
+  }
 }

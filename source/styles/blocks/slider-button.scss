@@ -31,6 +31,15 @@
   transform: translate(-50%);
 }
 
+.slider__button:hover::before,
+.slider__button:focus::before {
+  border-color: $basic-green;
+}
+
+.slider__button:active::before {
+  border-color: rgba(94, 170, 47, 0.6);
+}
+
 .slider__button::after {
   content: "";
   position: absolute;
@@ -44,4 +53,13 @@
   mask-position: 50%;
   mask-size: 24px 18px;
   mask-repeat: no-repeat;
+}
+
+.slider__button:hover::after,
+.slider__button:focus::after {
+  background-color: $basic-green;
+}
+
+.slider__button:active::after {
+  background-color: rgba(94, 170, 47, 0.6);
 }
