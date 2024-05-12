@@ -3,14 +3,24 @@
   text-align: center;
   color: $basic-white;
   background-color: $basic-green;
+  position: relative;
+  height: 480px;
+}
+
+.promo__container {
+  display: grid;
 }
 
 .promo__title {
   font-size: 36px;
   line-height: 36px;
+  margin-top: 27px;
+  margin-bottom: 0;
 }
 
 .promo__intro {
   line-height: 14px;
   text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 29px;
 }
