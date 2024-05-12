@@ -5,14 +5,24 @@
   padding: 0 20px;
 }
 
-.card-showmore__title {
-  font-family: $font-secondary;
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
+.card-showmore__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 20px;
 }
 
-.card-showmore__title::before {
+.card-showmore__plus {
+  position: relative;
+  padding: 0;
+  border: 0;
+  width: 30px;
+  height: 30px;
+  color: $special-grey-6;
+  background-color: transparent;
+}
+
+.card-showmore__plus::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -22,7 +32,7 @@
   background-color: $special-grey-6;
 }
 
-.card-showmore__title::after {
+.card-showmore__plus::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -31,6 +41,14 @@
   height: 2px;
   background-color: $special-grey-6;
   transform: rotate(90deg);
+}
+
+.card-showmore__title {
+  font-family: $font-secondary;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  position: relative;
 }
 
 .card-showmore__text {
