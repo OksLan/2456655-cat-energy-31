@@ -9,18 +9,28 @@
   font-family: $font-secondary;
   font-size: 16px;
   line-height: 20px;
+  text-transform: uppercase;
 }
 
 .card-showmore__title::before {
   content: "";
-  display: block;
-  background-image: url("../../icons/stack.svg#plus");
-  background-repeat: no-repeat;
-  background-position: center;
+  position: absolute;
+  top: 50%;
+  left: 0;
   width: 30px;
-  height: 30px;
-  color: $special-grey-6;
-  padding-left: 1600px;
+  height: 2px;
+  background-color: $special-grey-6;
+}
+
+.card-showmore__title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background-color: $special-grey-6;
+  transform: rotate(90deg);
 }
 
 .card-showmore__text {
