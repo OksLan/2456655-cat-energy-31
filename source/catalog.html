@@ -16,18 +16,21 @@
 <body class="page__body">
 
   <header class="main-header">
-    <div class="main-header__wrapper">
-
-      <a class="main-header__logo logo" href="index.html">
-        <img class="main-header__logo-icon" src="images/logo-mobile.svg" width="33" height="38" alt="Логотип магазина Cat Energy">
-        <img class="main-header__logo-letters" src="images/logo-2.svg" width="101" height="20" alt="Логотип магазина Cat Energy">
-      </a>
-
-      <nav class="main-nav">
-
-        <button class="main-nav__toggle" type="button">
-          <span class="visually-hidden">Открыть меню</span>
-        </button>
+    <div class="main-header__wrapper content-wrapper">
+      <nav class="main-header__nav main-nav">
+        <div class="main-nav__logo-container">
+          <a class="main-header__logo" href="index.html">
+            <picture>
+              <source media="(min-width: 1300px)" type="image/svg+xml" width="70" height="59" srcset="images/logo/logo-desktop.svg">
+              <source media="(min-width: 768px)" type="image/svg+xml" width="60" height="50" srcset="images/logo/logo-tablet.svg">
+              <img class="logo" src="images/logo/logo-mobile.svg" width="33" height="38" alt="Логотип магазина Cat Energy">
+            </picture>
+            <img class="logo-letters" src="images/logo/logo-letters.svg" width="101" height="18" alt="Логотип магазина Cat Energy">
+          </a>
+          <button class="main-nav__toggle main-nav__toggle--close" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
+        </div>
 
         <ul class="nav-list">
           <li class="nav-list__item">
@@ -42,7 +45,6 @@
         </ul>
 
       </nav>
-
     </div>
   </header>
 
@@ -60,17 +62,25 @@
             <img class="card__image" src="images/products/chicken-500-mobile@1x.png" srcset="images/products/chicken-500-mobile@2x.png 2x" width="68" height="86" alt="Cat Energy PRO 500 г курица">
           </picture>
         </a>
-        <a class="card__link" href="#">
-          <h3 class="card__title">Cat Energy PRO 500 г</h3>
-        </a>
-        <dl class="card__table">
-          <dt class="card__text">Масса</dt>
-          <dd class="card__text">500 г</dd>
-          <dt class="card__text">Вкус</dt>
-          <dd class="card__text">Курица</dd>
-          <dt class="card__text">Цена</dt>
-          <dd class="card__text">700 ₽</dd>
-        </dl>
+        <div class="card__container">
+          <h3 class="card__title">
+            <a class="card__title-link" href="#">Cat Energy PRO 500 г</a>
+          </h3>
+          <dl class="card__chart chart-table">
+            <div class="chart-table__item">
+              <dt class="chart-table__left-colunm">Масса</dt>
+              <dd class="chart-table__right-column">500 г</dd>
+            </div>
+            <div class="chart-table__item">
+              <dt class="chart-table__left-colunm">Вкус</dt>
+              <dd class="chart-table__right-column">Курица г</dd>
+            </div>
+            <div class="chart-table__item">
+              <dt class="chart-table__left-colunm">Цена</dt>
+              <dd class="chart-table__right-column">700 ₽</dd>
+            </div>
+          </dl>
+        </div>
         <a class="card__button button--primary button" href="#">Заказать</a>
       </article>
 

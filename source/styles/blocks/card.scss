@@ -1,5 +1,9 @@
 .card {
-  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  padding: 20px;
+  width: 280px;
+  border-bottom: 1px solid #ebebeb;
 }
 
 .card__title {
@@ -10,13 +14,20 @@
   text-transform: uppercase;
 }
 
-.card__link {
+.card__title-link {
   text-decoration: none;
+  text-transform: uppercase;
+  color: $basic-black-2;
 }
 
-.card__text {
-  font-family: $font-primary;
-  font-size: 12px;
-  line-height: 16px;
-  color: $basic-text;
+.card__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
+
+.card__button {
+  grid-column: 1 / -1;
+}
+
