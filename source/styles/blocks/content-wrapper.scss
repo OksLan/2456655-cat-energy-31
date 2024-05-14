@@ -1,8 +1,8 @@
 .content-wrapper {
-  box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0;
   width: 280px;
-  padding: 0 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 
   @media (min-width: $tablet-width) {
     width: 708px;
