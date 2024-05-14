@@ -1,14 +1,16 @@
 .social-list {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 0;
   padding-left: 0;
-  list-style: none;
   padding-top: 20px;
   padding-bottom: 20px;
   width: 100%;
+  list-style: none;
   gap: 24px;
+  border-top: 1px solid $special-grey-8;
+  border-bottom: 1px solid $special-grey-8;
 }
 
 .social-list__link {
