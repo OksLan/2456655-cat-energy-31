@@ -4,6 +4,18 @@
   padding: 20px;
   width: 280px;
   border-bottom: 1px solid #ebebeb;
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 324px;
+    padding: 0 37px 40px;
+    width: 324px;
+    border-bottom: none;
+    background-image: linear-gradient(180deg, $basic-white 90px, $basic-grey 90px);
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
+  }
 }
 
 .card__title {
