@@ -1,7 +1,19 @@
+.main-nav {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 .main-nav__logo-container {
   display: flex;
   align-items: center;
   padding: 13px 0;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
 }
 
 .main-nav__toggle {

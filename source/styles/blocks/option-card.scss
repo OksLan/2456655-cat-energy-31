@@ -3,6 +3,11 @@
   flex-direction: column;
   padding: 21px 33px 18px 20px;
   background-color: $basic-grey;
+
+  @media (min-width: $tablet-width) {
+    padding: 50px;
+    min-height: 248px;
+  }
 }
 
 .option-card__content {
@@ -52,6 +57,11 @@
   margin-bottom: 28px;
   margin-left: 70px;
   color: $basic-black;
+
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
 
 .option-card__text {
@@ -66,6 +76,11 @@
   position: relative;
   text-decoration: none;
   color: $basic-black;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .option-card__link::after {
