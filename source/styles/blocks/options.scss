@@ -1,0 +1,19 @@
+.options {
+  display: grid;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    gap: 30px;
+    padding-top: 0;
+    padding-bottom: 45px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: repeat(2, 570px);
+    gap: 80px;
+    padding-top: 82px;
+    padding-bottom: 71px;
+  }
+}
