@@ -12,6 +12,9 @@
 
 .option-card__content {
   position: relative;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 .option-card__content::before {
@@ -23,6 +26,14 @@
   height: 50px;
   border-radius: 50%;
   background-color: $basic-green;
+
+  @media (min-width: $tablet-width) {
+    top: 10px;
+    left: auto;
+    right: 10px;
+    width: 200px;
+    height: 211px;
+  }
 }
 
 .option-card__content--slim::after {
@@ -34,6 +45,14 @@
   background-repeat: no-repeat;
   position: absolute;
   content: "";
+
+  @media (min-width: $tablet-width) {
+    top: 10px;
+    left: auto;
+    right: 40px;
+    width: 140px;
+    height: 194px;
+  }
 }
 
 .option-card__content--pro::after {
@@ -45,6 +64,14 @@
   content: "";
   top: 10px;
   left: -9px;
+
+  @media (min-width: $tablet-width) {
+    top: 55px;
+    left: auto;
+    right: -21px;
+    width: 268px;
+    height: 112px;
+  }
 }
 
 .option-card__title {
@@ -61,11 +88,18 @@
   @media (min-width: $tablet-width) {
     font-size: 36px;
     line-height: 36px;
+    margin-left: 0;
   }
 }
 
 .option-card__text {
   color: $basic-black-2;
+
+  @media (min-width: $tablet-width) {
+    max-width: 340px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
 }
 
 .option-card__link {
@@ -80,6 +114,7 @@
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 30px;
+    max-width: 161px;
   }
 }
 
@@ -92,7 +127,7 @@
   width: 24px;
   height: 12px;
   top: 50%;
-  left: 95px;
+  left: 120px;
   transform: translateY(-50%);
   background-size: contain;
 }

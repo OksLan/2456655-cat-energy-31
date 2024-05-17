@@ -11,6 +11,11 @@
   gap: 24px;
   border-top: 1px solid $special-grey-8;
   border-bottom: 1px solid $special-grey-8;
+
+  @media (min-width: $tablet-width) {
+    width: 132px;
+    border: 0;
+  }
 }
 
 .social-list__link {

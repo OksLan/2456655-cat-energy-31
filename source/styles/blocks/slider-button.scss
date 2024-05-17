@@ -53,6 +53,10 @@
   mask-position: 50%;
   mask-size: 24px 18px;
   mask-repeat: no-repeat;
+
+  @media (min-width: $tablet-width) {
+    top: 52%;
+  }
 }
 
 .slider__button:hover::after,

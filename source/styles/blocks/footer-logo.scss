@@ -3,4 +3,9 @@
   width: 128px;
   height: 24px;
   margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 0;
+    margin-right: 35px;
+  }
 }

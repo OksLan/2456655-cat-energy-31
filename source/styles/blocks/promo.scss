@@ -7,7 +7,7 @@
   background-position: top center;
   background-size: 320px 302px;
   position: relative;
-  height: 480px;
+  min-height: 480px;
 
   @media (min-width: $tablet-width) {
     background-image: none;
