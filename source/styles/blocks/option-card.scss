@@ -15,6 +15,11 @@
   margin-bottom: 10px;
   padding-top: 5px;
   padding-bottom: 10px;
+  border-bottom: 1px solid $special-grey-8;
+
+  @media (min-width: $tablet-width) {
+    border-bottom: none;
+  }
 }
 
 .option-card__content::before {

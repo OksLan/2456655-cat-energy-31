@@ -14,6 +14,14 @@
     justify-content: flex-end;
     align-items: center;
     margin-left: auto;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 30px;
+    width: 600px;
   }
 }
 
@@ -35,6 +43,14 @@
   position: relative;
   display: block;
   padding: 22px 0 24px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    color: $basic-white;
+  }
 }
 
 .nav-list__link--active::after {
@@ -43,8 +59,12 @@
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 2px;
+    bottom: -10px;
     height: 2px;
     background-color: $basic-green;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-color: $basic-white;
   }
 }

@@ -49,6 +49,8 @@
   color: $basic-black;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 15px;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
