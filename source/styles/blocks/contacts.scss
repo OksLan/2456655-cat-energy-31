@@ -33,7 +33,7 @@
 
 .contacts__address {
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   width: 140px;
   margin-left: auto;
@@ -44,6 +44,7 @@
     width: 157px;
     min-height: 80px;
     text-align: right;
+    font-size: 16px;
   }
 
   @media (min-width: $desktop-width) {
