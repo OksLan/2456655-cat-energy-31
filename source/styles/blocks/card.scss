@@ -24,6 +24,9 @@
   line-height: 20px;
   color: $basic-black-2;
   text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 13px;
+  width: 76px;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
@@ -47,4 +50,6 @@
 
 .card__button {
   grid-column: 1 / -1;
+  font-size: 16px;
+  line-height: 20px;
 }

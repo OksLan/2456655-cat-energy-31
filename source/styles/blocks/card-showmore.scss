@@ -47,10 +47,22 @@
   line-height: 20px;
   text-transform: uppercase;
   position: relative;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  color: $basic-black-1;
 }
 
 .card-showmore__text {
   font-size: 12px;
   line-height: 16px;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: $basic-text;
+}
+
+.card-showmore__button {
+  margin-top: auto;
+  width: 280px;
+  padding-left: 0;
+  padding-right: 0;
 }
