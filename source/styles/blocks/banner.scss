@@ -3,8 +3,10 @@
   flex-direction: column;
   align-items: center;
   background-color: $basic-green;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   min-height: 290px;
+  max-width: 500px;
   background-image: url("../../images/bonus-background/bonus-mobile@1x.jpg");
   background-size: cover;
   background-position: center;
@@ -19,7 +21,7 @@
   text-align: center;
   position: relative;
   margin-top: 186px;
-  width: 50%;
+  width: 180px;
 }
 
 .banner__text::before {

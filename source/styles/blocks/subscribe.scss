@@ -1,8 +1,14 @@
+.subscribe__form {
+  display: grid;
+}
+
 .subscribe__title {
   font-family: $font-secondary;
   font-size: 24px;
   line-height: 24px;
   color: $basic-black;
+  margin-top: 40px;
+  margin-bottom: 32px;
 }
 
 .subscribe__text {
@@ -10,4 +16,15 @@
   font-size: 16px;
   line-height: 24px;
   color: $basic-black;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.subscribe__button {
+  font-size: 20px;
+  line-height: 26px;
+  padding: 15px 81px;
+  border: none;
+  margin-bottom: 40px;
 }
