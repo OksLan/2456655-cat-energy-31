@@ -3,6 +3,15 @@
   flex-direction: column;
   align-items: center;
   padding: 0 20px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 90px;
+    padding-bottom: 0;
+    width: 324px;
+  }
 }
 
 .card-showmore__wrapper {
@@ -10,6 +19,13 @@
   flex-direction: column;
   align-items: center;
   padding: 25px 20px;
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    padding: 50px 38px 39px;
+    min-height: 340px;
+    border: 2px solid $basic-grey;
+  }
 }
 
 .card-showmore__plus {
@@ -18,6 +34,11 @@
   border: 0;
   width: 30px;
   height: 30px;
+
+  @media (min-width: $tablet-width) {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 .card-showmore__plus::before {
@@ -28,6 +49,10 @@
   width: 30px;
   height: 2px;
   background-color: $special-grey-6;
+
+  @media (min-width: $tablet-width) {
+    width: 60px;
+  }
 }
 
 .card-showmore__plus::after {
@@ -39,6 +64,10 @@
   height: 2px;
   background-color: $special-grey-6;
   transform: rotate(90deg);
+
+  @media (min-width: $tablet-width) {
+    width: 60px;
+  }
 }
 
 .card-showmore__title {
@@ -50,6 +79,14 @@
   margin-top: 32px;
   margin-bottom: 8px;
   color: $basic-black-1;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 50px;
+    margin-bottom: 23px;
+    width: 134px;
+    font-size: 20px;
+    line-height: 24px;
+  }
 }
 
 .card-showmore__text {
@@ -58,6 +95,12 @@
   margin-top: 0;
   margin-bottom: 20px;
   color: $basic-text;
+
+  @media (min-width: $tablet-width) {
+    width: 170px;
+    font-size: 16px;
+    line-height: 18px;
+  }
 }
 
 .card-showmore__button {
@@ -65,4 +108,11 @@
   width: 280px;
   padding-left: 0;
   padding-right: 0;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 84px;
+    width: 250px;
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
