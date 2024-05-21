@@ -14,10 +14,10 @@
   position: relative;
   box-sizing: border-box;
   padding: 15px 5px;
-  min-height: 24px;
   border: 1px solid $special-grey-4;
   border-radius: 3px;
   background-color: $special-grey-1;
+  width: 124px;
 
   @media (min-width: $tablet-width) {
     background-color: $basic-white;
@@ -51,6 +51,8 @@
   @media (min-width: $tablet-width) {
     max-width: 125px;
     background-color: $basic-white;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
