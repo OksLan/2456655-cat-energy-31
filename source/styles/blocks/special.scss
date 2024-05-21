@@ -14,13 +14,15 @@
 }
 
 .special::after {
-  content: "";
-  position: absolute;
-  color: $special-grey-7;
-  height: 1px;
-  width: 768px;
-  margin-left: -30px;
-  margin-right: -30px;
+  @media (min-width: $tablet-width) {
+    content: "";
+    position: absolute;
+    color: $special-grey-7;
+    height: 1px;
+    width: 768px;
+    margin-left: -30px;
+    margin-right: -30px;
+  }
 }
 
 .special__title {
