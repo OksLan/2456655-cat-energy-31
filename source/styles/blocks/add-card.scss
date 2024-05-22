@@ -3,6 +3,11 @@
   padding-top: 13px;
   padding-bottom: 16px;
   border-bottom: 1px solid $special-grey-4;
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 1fr 250px;
+    padding: 25px 38px 26px;
+  }
 }
 
 .add-card__title {
@@ -13,11 +18,35 @@
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 13px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
-.add-card__text {
-  font-family: $font-primary;
+.add-card__chart {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 13px;
   font-size: 14px;
-  line-height: 14px;
-  color: $basic-black;
+  line-height: 20px;
+
+  @media (min-width: $tablet-width) {
+    justify-content: flex-end;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    font-size: 16px;
+  }
+}
+
+.add-card__chart-right {
+  @media (min-width: $tablet-width) {
+    margin-left: 23px;
+    width: 70px;
+    text-align: right;
+  }
 }
