@@ -39,19 +39,26 @@
 
 .nav-list__link {
   text-decoration: none;
-  color: $basic-black;
   position: relative;
   display: block;
   padding: 22px 0 24px;
+  color: $basic-black;
 
   @media (min-width: $tablet-width) {
     padding: 0;
   }
 
   @media (min-width: $desktop-width) {
+    color: $basic-black-1;
+  }
+}
+
+.nav-list__link--index {
+  @media (min-width: $desktop-width) {
     color: $basic-white;
   }
 }
+
 
 .nav-list__link--active::after {
   @media (min-width: $tablet-width) {
@@ -63,7 +70,9 @@
     height: 2px;
     background-color: $basic-green;
   }
+}
 
+.nav-list__link--active.nav-list__link--index::after {
   @media (min-width: $desktop-width) {
     background-color: $basic-white;
   }

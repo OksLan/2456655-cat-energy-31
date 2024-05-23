@@ -1,8 +1,8 @@
 .card-showmore {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  max-width: 350px;
+  text-align: center;
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -12,17 +12,21 @@
     padding-bottom: 0;
     width: 324px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
+  }
 }
 
 .card-showmore__wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 25px 20px;
-  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 
   @media (min-width: $tablet-width) {
-    padding: 50px 38px 39px;
+    padding: 50px 40px 40px;
     min-height: 340px;
     border: 2px solid $basic-grey;
   }
@@ -81,7 +85,7 @@
   color: $basic-black-1;
 
   @media (min-width: $tablet-width) {
-    margin-top: 50px;
+    margin-top: 60px;
     margin-bottom: 23px;
     width: 134px;
     font-size: 20px;
@@ -105,13 +109,10 @@
 
 .card-showmore__button {
   margin-top: auto;
-  width: 280px;
-  padding-left: 0;
-  padding-right: 0;
+  width: 100%;
 
   @media (min-width: $tablet-width) {
     margin-top: 84px;
-    width: 250px;
     font-size: 16px;
     line-height: 20px;
   }

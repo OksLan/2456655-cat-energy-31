@@ -10,6 +10,12 @@
     margin-left: 0;
     margin-right: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: repeat(4, 245px);
+    gap: 80px 63px;
+  }
 }
 
 .catalog__title {
