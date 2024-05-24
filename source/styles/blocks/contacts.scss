@@ -12,7 +12,8 @@
     z-index: 1;
     left: 110px;
     top: 95px;
-    width: 565px;
+    width: 407px;
+    padding: 60px 80px;
   }
 }
 
@@ -54,4 +55,8 @@
 
 .contacts--background {
   background-color: $basic-grey;
+
+  @media (min-width: $desktop-width) {
+    background-color: $basic-white;
+  }
 }
