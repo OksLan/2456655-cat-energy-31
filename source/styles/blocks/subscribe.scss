@@ -6,6 +6,10 @@
     justify-content: center;
     margin-bottom: 80px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 104px;
+  }
 }
 
 .subscribe__title {
@@ -21,6 +25,13 @@
     margin-top: 80px;
     font-size: 32px;
     line-height: 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 72px;
+    margin-top: 96px;
   }
 }
 
@@ -40,6 +51,10 @@
     width: 522px;
     margin: 0 auto 24px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 1000px;
+  }
 }
 
 .subscribe__button {
@@ -54,4 +69,8 @@
     padding: 15px 70px;
     margin-bottom: 0;
   }
+}
+
+::placeholder {
+  color: $basic-text;
 }
