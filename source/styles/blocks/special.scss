@@ -38,6 +38,10 @@
     font-size: 60px;
     line-height: 60px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 72px;
+  }
 }
 
 .special__list {
@@ -74,6 +78,10 @@
     min-height: 156px;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  @media (min-width: $tablet-width) {
+    min-height: 118px;
   }
 }
 

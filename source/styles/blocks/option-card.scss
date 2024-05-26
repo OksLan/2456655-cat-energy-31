@@ -17,7 +17,7 @@
 
 .option-card__content {
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   padding-top: 5px;
   padding-bottom: 10px;
   border-bottom: 1px solid $special-grey-8;
@@ -178,4 +178,21 @@
   @media (min-width: $tablet-width) {
     left: 120px;
   }
+}
+
+.option-card__link:hover::after {
+  background-image: url("../../icons/stack.svg#long-arrow");
+  width: 32px;
+  right: -10px;
+}
+
+.option-card__link:active {
+  opacity: 0.3;
+}
+
+.option-card__link:active::after {
+  background-image: url("../../icons/stack.svg#long-arrow");
+  width: 32px;
+  right: -10px;
+  opacity: 0.3;
 }

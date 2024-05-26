@@ -1,9 +1,16 @@
 .example {
   background-color: $special-grey-1;
-  padding-top: 45px;
+  padding-top: 25px;
+  padding-bottom: 40px;
 
   @media (min-width: $tablet-width) {
     background-color: $basic-white;
+    padding-bottom: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-color: $basic-white;
+    padding-top: 0;
   }
 }
 
@@ -14,6 +21,10 @@
 }
 
 .example__container {
+  @media (min-width: $tablet-width) {
+    padding-bottom: 50px;
+  }
+
   @media (min-width: $desktop-width) {
     width: 610px;
   }

@@ -1,3 +1,131 @@
 .slider {
+  display: grid;
+  width: 280px;
   position: relative;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 708px;
+    min-height: 630px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 650px;
+    min-height: 650px;
+    margin-top: 56px;
+  }
 }
+
+.slider__pic-container {
+  overflow: hidden;
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+
+.slider__pic-container--before {
+  background-color: $special-grey-1;
+  z-index: 2;
+
+  @media (min-width: $tablet-width) {
+    background-image: linear-gradient(180deg, $basic-white 170px, $special-grey-1 170px);
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: linear-gradient(180deg, $basic-white 190px, $special-grey-1 190px);
+  }
+}
+
+.slider__pic-container--after {
+  background-color: $special-grey-1;
+
+  @media (min-width: $tablet-width) {
+    background-image: linear-gradient(180deg, $basic-white 170px, $special-grey-1 170px);
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: linear-gradient(180deg, $basic-white 190px, $special-grey-1 190px);
+  }
+}
+
+.slider__button {
+  z-index: 3;
+  border: none;
+  border-radius: 2px;
+  width: 2px;
+  height: 256px;
+  display: block;
+  top: 0;
+  left: 137px;
+  position: absolute;
+  background-color: $special-grey-5;
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    height: 512px;
+    left: 354px;
+    top: 0;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $basic-green;
+  }
+
+  &:active {
+    background-color: rgba(94, 170, 47, 0.6);
+  }
+}
+
+.slider__button::before {
+  content: "";
+  position: absolute;
+  background-color: $basic-white;
+  border: 2px solid $special-grey-5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%);
+  top: 110px;
+  box-sizing: border-box;
+
+  @media (min-width: $tablet-width) {
+    top: 250px;
+  }
+}
+
+.slider__button:hover::before,
+.slider__button:focus::before {
+  border-color: $basic-green;
+}
+
+.slider__button:active::before {
+  border-color: rgba(94, 170, 47, 0.6);
+}
+
+.slider__button::after {
+  content: "";
+  position: absolute;
+  background-color: $special-grey-5;
+  width: 24px;
+  height: 18px;
+  top: 51%;
+  transform: translate(-50%, -50%);
+  mask-image: url("../../icons/slider.svg");
+  mask-position: 50%;
+  mask-size: 24px 18px;
+  mask-repeat: no-repeat;
+
+  @media (min-width: $tablet-width) {
+    top: 52.5%;
+  }
+}
+
+.slider__button:hover::after,
+.slider__button:focus::after {
+  background-color: $basic-green;
+}
+
+.slider__button:active::after {
+  background-color: rgba(94, 170, 47, 0.6);
+}
+

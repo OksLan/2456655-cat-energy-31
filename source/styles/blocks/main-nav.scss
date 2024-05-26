@@ -24,7 +24,6 @@
 
 .main-nav__toggle {
   background-color: $basic-white;
-  background-image: url("../../icons/stack.svg#burger");
   border: none;
   width: 24px;
   height: 24px;
@@ -32,8 +31,35 @@
   display: none;
   margin-left: auto;
   padding: 0;
+  cursor: pointer;
+  color: $basic-black-1;
 }
 
-.main-nav__toggle--close {
-  background-image: url("../../icons/stack.svg#cross");
+.main-nav__toggle:hover,
+.main-nav__toggle:focus-visible {
+  opacity: 0.6;
+}
+
+.main-nav__toggle:active {
+  opacity: 0.3;
+}
+
+.main-nav--closed .main-nav__toggle {
+  @media (max-width: $mobile-width-only) {
+    background-image: url("../../icons/stack.svg#burger");
+    display: block;
+  }
+}
+
+.main-nav--closed .nav-list__item {
+  @media (max-width: $mobile-width-only) {
+    display: none;
+  }
+}
+
+.main-nav--opened .main-nav__toggle {
+  @media (max-width: $mobile-width-only) {
+    background-image: url("../../icons/stack.svg#cross");
+    display: block;
+  }
 }
