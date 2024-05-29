@@ -60,3 +60,9 @@
     background-color: $basic-white;
   }
 }
+
+.contacts__city {
+  @media (min-width: $tablet-width) {
+    margin-top: 20px;
+  }
+}
