@@ -37,6 +37,10 @@
   }
 }
 
+.nav-list__item:hover {
+  opacity: 0.6;
+}
+
 .nav-list__link {
   text-decoration: none;
   position: relative;

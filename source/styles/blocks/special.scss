@@ -4,7 +4,7 @@
 
   @media (min-width: $tablet-width) {
     padding-top: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -16,7 +16,7 @@
   @media (min-width: $tablet-width) {
     content: "";
     position: absolute;
-    color: $special-grey-7;
+    background-color: $special-grey-7;
     height: 1px;
     width: 768px;
     margin-left: -30px;
@@ -54,6 +54,7 @@
   @media (min-width: $tablet-width) {
     grid-template-columns: repeat(2, 250px);
     gap: 37px 153px;
+    padding-bottom: 47px;
   }
 
   @media (min-width: $desktop-width) {

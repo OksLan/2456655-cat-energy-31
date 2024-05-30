@@ -26,7 +26,7 @@
   z-index: 2;
 
   @media (min-width: $tablet-width) {
-    background-image: linear-gradient($basic-white 170px, $special-grey-1 170px);
+    background-image: linear-gradient($basic-white 150px, $special-grey-1 150px);
   }
 
   @media (min-width: $desktop-width) {
@@ -38,7 +38,7 @@
   background-color: $special-grey-1;
 
   @media (min-width: $tablet-width) {
-    background-image: linear-gradient(180deg, $basic-white 170px, $special-grey-1 170px);
+    background-image: linear-gradient(180deg, $basic-white 150px, $special-grey-1 150px);
   }
 
   @media (min-width: $desktop-width) {

@@ -15,7 +15,21 @@
   background-color: $basic-green;
 }
 
+.button--primary:hover {
+  background-color: $basic-green-2;
+}
+
+.button--primary:active {
+  background-color: $basic-green-2;
+  color: $special-green;
+}
+
 .button--secondary {
   background-color: $basic-grey;
   color: $basic-text;
+}
+
+.button--secondary:hover,
+.button--secondary:active {
+  background-color: $special-grey-2;
 }
