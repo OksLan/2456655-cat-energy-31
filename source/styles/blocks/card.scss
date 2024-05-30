@@ -16,6 +16,7 @@
 
   @media (min-width: $desktop-width) {
     width: 245px;
+    padding: 0 38px 40px;
   }
 }
 
@@ -48,6 +49,11 @@
     width: 140px;
     margin-top: 22px;
     margin-bottom: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 6px;
+    margin-bottom: 23px;
   }
 }
 

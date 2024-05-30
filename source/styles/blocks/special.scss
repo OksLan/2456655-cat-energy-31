@@ -13,7 +13,7 @@
 }
 
 .special::after {
-  @media (min-width: $tablet-width) {
+  @media (width: 768px) {
     content: "";
     position: absolute;
     background-color: $special-grey-7;
