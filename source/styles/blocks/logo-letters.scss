@@ -1,8 +1,12 @@
-.logo-letters:hover,
-.logo-letters:focus-visible {
-  opacity: 0.8;
-}
+.logo-letters {
+  fill: $basic-black-1;
 
-.logo-letters:active {
-  opacity: 0.6;
+  &:hover,
+  &:focus {
+    fill: $special-dark-grey-2;
+  }
+
+  &:active {
+    fill: $special-dark-grey-1;
+  }
 }
