@@ -76,6 +76,7 @@
 
 .promo__image {
   margin: 0;
+  margin-top: 3px;
 
   @media (min-width: $tablet-width) {
     margin-top: -35px;
@@ -87,7 +88,7 @@
   @media (min-width: $desktop-width) {
     grid-column: 2 / 3;
     grid-row: 1 / 5;
-    margin: 0 -82px;
+    margin: 0 -81px;
     width: 552px;
     height: 499px;
   }
