@@ -11,7 +11,7 @@
 
   @media (min-width: $desktop-width) {
     min-height: 597px;
-    margin-top: 56px;
+    margin-top: 24px;
   }
 }
 
@@ -31,6 +31,7 @@
 
   @media (min-width: $desktop-width) {
     background-image: linear-gradient($basic-white 134px, $basic-grey 134px);
+    padding-left: 50px;
   }
 }
 
@@ -43,6 +44,7 @@
 
   @media (min-width: $desktop-width) {
     background-image: linear-gradient(180deg, $basic-white 134px, $basic-grey 134px);
+    padding-left: 50px;
   }
 }
 
@@ -64,6 +66,10 @@
     left: 50%;
     transform: translateX(-50%);
     top: 0;
+  }
+
+  @media (min-width: $tablet-width) {
+    left: 59%;
   }
 
   &:hover,
@@ -91,6 +97,10 @@
   @media (min-width: $tablet-width) {
     top: 250px;
   }
+
+  @media (min-width: $desktop-width) {
+    top: 236px;
+  }
 }
 
 .slider__button:hover::before,
@@ -117,6 +127,10 @@
 
   @media (min-width: $tablet-width) {
     top: 52.5%;
+  }
+
+  @media (min-width: $tablet-width) {
+    top: 50%;
   }
 }
 

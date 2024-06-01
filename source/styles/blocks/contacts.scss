@@ -10,7 +10,7 @@
   @media (min-width: $desktop-width) {
     position: absolute;
     z-index: 1;
-    left: 110px;
+    left: 117px;
     top: 95px;
     width: 407px;
     padding: 60px 80px;
@@ -64,5 +64,9 @@
 .contacts__city {
   @media (min-width: $tablet-width) {
     margin-top: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 19px;
   }
 }

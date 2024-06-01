@@ -7,6 +7,7 @@
 
   @media (min-width: $tablet-width) {
     width: 367px;
+    margin-top: 4px;
   }
 }
 
@@ -22,6 +23,7 @@
   @media (min-width: $tablet-width) {
     background-color: $basic-white;
     width: 162px;
+    padding: 16px 5px;
   }
 
   @media (min-width: $desktop-width) {

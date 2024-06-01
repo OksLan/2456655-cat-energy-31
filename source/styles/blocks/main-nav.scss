@@ -1,8 +1,8 @@
 .main-nav {
   @media (min-width: $tablet-width) {
     display: flex;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
 
   @media (min-width: $desktop-width) {
@@ -19,6 +19,7 @@
 
   @media (min-width: $tablet-width) {
     padding: 0;
+    padding-left: 6px;
   }
 }
 

@@ -9,6 +9,10 @@
   color: $basic-white;
   cursor: pointer;
   box-sizing: border-box;
+
+  @media (min-width: $tablet-width) {
+    padding: 14px;
+  }
 }
 
 .button--primary {

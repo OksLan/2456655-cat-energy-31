@@ -11,7 +11,6 @@
 
   @media (min-width: $tablet-width) {
     background-image: none;
-    padding-bottom: 0;
     min-height: 0;
     color: $basic-black;
     text-align: left;
@@ -31,8 +30,7 @@
 
   @media (min-width: $desktop-width) {
     grid-template-columns: 1fr 1fr;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 87px;
     width: 1060px;
   }
 }
@@ -44,7 +42,7 @@
   margin-bottom: 0;
 
   @media (min-width: $tablet-width) {
-    margin: 33px auto 28px 90px;
+    margin: 39px 96px 16px;
     max-width: 416px;
     font-size: 60px;
     line-height: 60px;
@@ -63,7 +61,7 @@
   margin-bottom: 30px;
 
   @media (min-width: $tablet-width) {
-    margin-left: 90px;
+    margin-left: 96px;
     margin-bottom: 21px;
     font-size: 20px;
     line-height: 20px;
@@ -71,6 +69,7 @@
 
   @media (min-width: $desktop-width) {
     margin-left: 0;
+    margin-bottom: 19px;
   }
 }
 
@@ -78,8 +77,9 @@
   margin: 0;
 
   @media (min-width: $tablet-width) {
-    margin-top: -35px;
+    margin-top: -39px;
     margin-bottom: 0;
+    margin-left: 3px;
     width: 709px;
     height: 609px;
   }
@@ -103,8 +103,8 @@
   @media (min-width: $tablet-width) {
     grid-column-start: 1;
     grid-row-start: 3;
-    margin-top: 28px;
-    margin-left: 90px;
+    margin-top: 33px;
+    margin-left: 96px;
     width: 244px;
     font-size: 20px;
     line-height: 26px;
