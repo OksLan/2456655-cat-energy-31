@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
   padding-top: 13px;
-  padding-bottom: 15px;
+  padding-bottom: 14px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
@@ -33,6 +33,7 @@
   padding: 0;
   cursor: pointer;
   color: $basic-black-1;
+  right: 1px;
 }
 
 .main-nav__toggle:hover,

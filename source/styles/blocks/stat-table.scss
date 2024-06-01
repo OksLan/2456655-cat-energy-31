@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 36px;
 
   @media (min-width: $tablet-width) {
     width: 367px;
@@ -13,7 +13,7 @@
 .stat-table__item {
   position: relative;
   box-sizing: border-box;
-  padding: 15px 5px;
+  padding: 14px 5px;
   border: 1px solid $special-grey-4;
   border-radius: 3px;
   background-color: $special-grey-1;
@@ -35,9 +35,9 @@
   text-transform: lowercase;
   color: $basic-text;
   position: absolute;
-  left: 0;
+  left: -3px;
   right: 0;
-  bottom: 0;
+  bottom: -1px;
   transform: translateY(72%);
 
   @media (min-width: $tablet-width) {

@@ -1,7 +1,7 @@
 .example {
   background-color: $special-grey-1;
   padding-top: 25px;
-  padding-bottom: 40px;
+  padding-bottom: 36px;
 
   @media (min-width: $tablet-width) {
     background: linear-gradient($basic-white 635px, $special-grey-1 635px);
@@ -38,6 +38,7 @@
   line-height: 40px;
   color: $basic-black;
   margin-top: 0;
+  margin-bottom: 40px;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 60px;
@@ -54,7 +55,6 @@
 .example__text {
   font-size: 14px;
   line-height: 18px;
-  margin-top: 10px;
   margin-bottom: 10px;
 
   @media (min-width: $tablet-width) {
@@ -90,7 +90,7 @@
   text-align: center;
   text-transform: uppercase;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;

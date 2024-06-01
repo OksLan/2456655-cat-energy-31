@@ -50,11 +50,11 @@
   z-index: 3;
   border: none;
   border-radius: 2px;
-  width: 2px;
+  width: 4px;
   height: 256px;
   display: block;
   top: 0;
-  left: 137px;
+  left: 138px;
   position: absolute;
   background-color: $special-grey-5;
   padding: 0;
@@ -85,7 +85,7 @@
   width: 40px;
   height: 40px;
   transform: translate(-50%);
-  top: 110px;
+  top: 108px;
   box-sizing: border-box;
 
   @media (min-width: $tablet-width) {
@@ -108,7 +108,7 @@
   background-color: $special-grey-5;
   width: 24px;
   height: 18px;
-  top: 51%;
+  top: 50%;
   transform: translate(-50%, -50%);
   mask-image: url("../../icons/slider.svg");
   mask-position: 50%;
