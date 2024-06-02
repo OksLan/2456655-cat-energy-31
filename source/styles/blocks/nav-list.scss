@@ -16,13 +16,14 @@
     margin-left: auto;
     font-size: 18px;
     line-height: 24px;
-    padding-top: 3px;
+    padding-top: 5px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: 20px;
     line-height: 30px;
     width: 600px;
+    padding-top: 0;
   }
 }
 
@@ -80,9 +81,9 @@
   @media (min-width: $tablet-width) {
     content: "";
     position: absolute;
-    left: 0;
+    left: -5px;
     right: 0;
-    bottom: -10px;
+    bottom: -8px;
     height: 2px;
     background-color: $basic-green;
   }

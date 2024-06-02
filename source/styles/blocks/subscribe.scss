@@ -49,7 +49,7 @@
     line-height: 32px;
     text-align: center;
     width: 522px;
-    margin: 0 auto 24px;
+    margin: 0 auto 23px;
   }
 
   @media (min-width: $desktop-width) {
@@ -73,4 +73,5 @@
 
 ::placeholder {
   color: $basic-text;
+  padding-left: 13px;
 }

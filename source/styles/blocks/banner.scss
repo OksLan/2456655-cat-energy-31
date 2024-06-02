@@ -38,7 +38,7 @@
   width: 180px;
 
   @media (min-width: $tablet-width) {
-    margin: 0 120px 0 auto;
+    margin: 0 124px 0 auto;
     width: 161px;
     text-align: left;
   }
@@ -63,8 +63,8 @@
   top: -128px;
 
   @media (min-width: $tablet-width) {
-    top: 50%;
-    left: -345px;
+    top: 46%;
+    left: -344px;
     transform: translateY(-50%);
   }
 

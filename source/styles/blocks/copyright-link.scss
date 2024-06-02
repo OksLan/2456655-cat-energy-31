@@ -17,6 +17,10 @@
 .copyright-link__text {
   color: $basic-text;
 
+  @media (min-width: $tablet-width) {
+    margin-left: 4px;
+  }
+
   @media (min-width: $desktop-width) {
     margin-left: 5px;
     margin-top: -3px;
