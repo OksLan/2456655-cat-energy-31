@@ -1,6 +1,6 @@
 .card-showmore {
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 21px;
   max-width: 350px;
   text-align: center;
   border-bottom: 1px solid #ebebeb;
@@ -86,8 +86,8 @@
   line-height: 20px;
   text-transform: uppercase;
   position: relative;
-  margin-top: 32px;
-  margin-bottom: 8px;
+  margin-top: 23px;
+  margin-bottom: 9px;
   color: $basic-black-1;
 
   @media (min-width: $tablet-width) {
@@ -123,7 +123,7 @@
 }
 
 .card-showmore__button {
-  margin-top: auto;
+  padding: 12px;
   width: 100%;
 
   @media (min-width: $tablet-width) {

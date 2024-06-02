@@ -1,7 +1,7 @@
 .card {
   display: grid;
   grid-template-columns: repeat(2, 140px);
-  padding: 20px;
+  padding: 23px;
   width: 280px;
   border-bottom: 1px solid #ebebeb;
 
@@ -22,7 +22,7 @@
 
 .card__container {
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 21px;
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -38,8 +38,8 @@
   line-height: 20px;
   color: $basic-black-2;
   text-transform: uppercase;
-  margin-top: 10px;
-  margin-bottom: 13px;
+  margin-top: -6px;
+  margin-bottom: 14px;
   width: 76px;
 
   @media (min-width: $tablet-width) {
@@ -72,6 +72,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  height: 107px;
 
   @media (min-width: $tablet-width) {
     align-items: flex-end;

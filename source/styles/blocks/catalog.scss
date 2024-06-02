@@ -1,6 +1,8 @@
 .catalog {
   margin-left: -20px;
   margin-right: -20px;
+  border-top: 1px solid $special-grey-2;
+  border-bottom: 1px solid $special-grey-2;
 
   @media (min-width: $tablet-width) {
     display: grid;
@@ -23,8 +25,8 @@
   font-size: 36px;
   line-height: 36px;
   color: $basic-black;
-  margin-top: 27px;
-  margin-bottom: 41px;
+  margin-top: 28px;
+  margin-bottom: 39px;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
