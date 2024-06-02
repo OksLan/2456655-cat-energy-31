@@ -16,6 +16,10 @@
     width: 132px;
     border: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 39px;
+  }
 }
 
 .social-list__link {

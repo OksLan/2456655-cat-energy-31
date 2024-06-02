@@ -24,7 +24,6 @@
 .example__container {
   @media (min-width: $tablet-width) {
     padding-bottom: 69px;
-    padding-left: 7px;
   }
 
   @media (min-width: $desktop-width) {
@@ -49,7 +48,7 @@
 
   @media (min-width: $desktop-width) {
     margin-top: 24px;
-    margin-bottom: 146px;
+    margin-bottom: 144px;
   }
 }
 
@@ -107,7 +106,7 @@
     justify-content: space-between;
     max-width: 328px;
     text-align: left;
-    margin-top: 61px;
+    margin-top: 59px;
     margin-bottom: 0;
   }
 }

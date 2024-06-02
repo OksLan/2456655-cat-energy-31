@@ -30,7 +30,7 @@
 
   @media (min-width: $desktop-width) {
     grid-template-columns: 1fr 1fr;
-    margin-left: 87px;
+    margin-left: 80px;
     width: 1060px;
   }
 }
@@ -87,7 +87,7 @@
   @media (min-width: $desktop-width) {
     grid-column: 2 / 3;
     grid-row: 1 / 5;
-    margin: 0 -81px;
+    margin: -1px -81px;
     width: 552px;
     height: 499px;
   }

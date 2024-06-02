@@ -12,14 +12,15 @@
   @media (min-width: $tablet-width) {
     width: 168px;
   }
-
-  @media (min-width: $desktop-width) {
-    width: 156px;
-  }
 }
 
 .copyright-link__text {
   color: $basic-text;
+
+  @media (min-width: $desktop-width) {
+    margin-left: 5px;
+    margin-top: -3px;
+  }
 
   &:active {
     color: rgba(68, 68, 68, 0.3);
@@ -28,10 +29,6 @@
 
 .copyright-link__icon {
   fill: $special-grey-5;
-
-  @media (min-width: $desktop-width) {
-    margin-right: -7px;
-  }
 
   &:hover,
   &:focus {

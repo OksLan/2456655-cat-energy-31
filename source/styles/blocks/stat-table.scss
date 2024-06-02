@@ -3,18 +3,22 @@
   justify-content: space-between;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 36px;
+  margin-bottom: 34px;
 
   @media (min-width: $tablet-width) {
     width: 367px;
     margin-top: 4px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 5px;
   }
 }
 
 .stat-table__item {
   position: relative;
   box-sizing: border-box;
-  padding: 14px 5px;
+  padding: 15px 5px;
   border: 1px solid $special-grey-4;
   border-radius: 3px;
   background-color: $special-grey-1;
@@ -28,6 +32,7 @@
 
   @media (min-width: $desktop-width) {
     background-color: $basic-grey;
+    padding: 17px 5px;
   }
 }
 
@@ -39,7 +44,7 @@
   position: absolute;
   left: -3px;
   right: 0;
-  bottom: -1px;
+  bottom: 1px;
   transform: translateY(72%);
 
   @media (min-width: $tablet-width) {
