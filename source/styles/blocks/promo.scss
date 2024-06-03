@@ -42,7 +42,7 @@
   margin-bottom: 0;
 
   @media (min-width: $tablet-width) {
-    margin: 39px 96px 16px;
+    margin: 39px 89px 16px;
     max-width: 416px;
     font-size: 60px;
     line-height: 60px;
@@ -61,7 +61,7 @@
   margin-bottom: 30px;
 
   @media (min-width: $tablet-width) {
-    margin-left: 96px;
+    margin-left: 90px;
     margin-bottom: 21px;
     font-size: 20px;
     line-height: 20px;
@@ -77,9 +77,9 @@
   margin: 0;
 
   @media (min-width: $tablet-width) {
-    margin-top: -39px;
+    margin-top: -41px;
     margin-bottom: 0;
-    margin-left: 3px;
+    margin-left: 0;
     width: 709px;
     height: 609px;
   }
@@ -103,8 +103,8 @@
   @media (min-width: $tablet-width) {
     grid-column-start: 1;
     grid-row-start: 3;
-    margin-top: 33px;
-    margin-left: 96px;
+    margin-top: 28px;
+    margin-left: 90px;
     width: 244px;
     font-size: 20px;
     line-height: 26px;

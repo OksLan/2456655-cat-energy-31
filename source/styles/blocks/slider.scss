@@ -26,7 +26,7 @@
   z-index: 2;
 
   @media (min-width: $tablet-width) {
-    background-image: linear-gradient($basic-white 150px, $special-grey-1 150px);
+    background-image: linear-gradient($basic-white 152px, $special-grey-1 152px);
   }
 
   @media (min-width: $desktop-width) {
@@ -39,7 +39,7 @@
   background-color: $special-grey-1;
 
   @media (min-width: $tablet-width) {
-    background-image: linear-gradient(180deg, $basic-white 150px, $special-grey-1 150px);
+    background-image: linear-gradient(180deg, $basic-white 152px, $special-grey-1 152px);
   }
 
   @media (min-width: $desktop-width) {
@@ -68,7 +68,7 @@
     top: 0;
   }
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $desktop-width) {
     left: 59%;
   }
 
@@ -95,7 +95,7 @@
   box-sizing: border-box;
 
   @media (min-width: $tablet-width) {
-    top: 250px;
+    top: 237px;
   }
 
   @media (min-width: $desktop-width) {

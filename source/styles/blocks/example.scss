@@ -4,9 +4,9 @@
   padding-bottom: 36px;
 
   @media (min-width: $tablet-width) {
-    background: linear-gradient($basic-white 635px, $special-grey-1 635px);
+    background: linear-gradient($basic-white 620px, $special-grey-1 620px);
     padding-bottom: 0;
-    padding-top: 45px;
+    padding-top: 46px;
   }
 
   @media (min-width: $desktop-width) {
@@ -97,7 +97,7 @@
     line-height: 20px;
     text-align: right;
     max-width: 175px;
-    margin-top: 16px;
+    margin-top: 14px;
     margin-bottom: 16px;
   }
 
