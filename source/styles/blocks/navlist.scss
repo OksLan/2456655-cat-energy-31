@@ -1,0 +1,15 @@
+.navlist {
+  position: relative;
+  display: none;
+}
+
+.navlist--dropdown {
+  position: absolute;
+  width: 100%;
+  background-color: $basic-white;
+  z-index: 2;
+}
+
+.navlist--opened {
+  display: block;
+}
