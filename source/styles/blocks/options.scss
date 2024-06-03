@@ -1,8 +1,8 @@
 .options {
   display: grid;
-  gap: 19px;
+  gap: 20px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 19px;
 
   @media (min-width: $tablet-width) {
     gap: 30px;

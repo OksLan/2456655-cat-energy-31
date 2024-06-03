@@ -4,7 +4,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-top: 73px;
+    padding-top: 68px;
   }
 }
 
@@ -30,7 +30,7 @@
   list-style: none;
   padding-left: 0;
   border-top: 1px solid $special-grey-4;
-  margin-bottom: 42px;
+  margin-bottom: 34px;
 
   @media (min-width: $tablet-width) {
     max-width: 708px;
@@ -43,14 +43,12 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 0;
-    margin-right: 0;
+    margin: 58px 0 3px;
     padding-left: 0;
     padding-right: 0;
     border-left: none;
     border-right: none;
     max-width: 896px;
-    margin-bottom: 3px;
   }
 }
 

@@ -1,6 +1,6 @@
 .card-showmore {
-  padding-top: 25px;
-  padding-bottom: 21px;
+  padding-top: 23px;
+  padding-bottom: 23px;
   max-width: 350px;
   text-align: center;
   border-bottom: 1px solid #ebebeb;
@@ -16,7 +16,7 @@
 
   @media (min-width: $desktop-width) {
     width: 245px;
-    padding-top: 98px;
+    padding-top: 86px;
   }
 }
 
@@ -48,6 +48,10 @@
   @media (min-width: $tablet-width) {
     width: 60px;
     height: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 11px 0;
   }
 }
 
@@ -86,7 +90,7 @@
   line-height: 20px;
   text-transform: uppercase;
   position: relative;
-  margin-top: 23px;
+  margin-top: 24px;
   margin-bottom: 9px;
   color: $basic-black-1;
 
@@ -99,7 +103,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-top: 40px;
+    margin-top: 29px;
     margin-bottom: 26px;
   }
 }
@@ -123,7 +127,7 @@
 }
 
 .card-showmore__button {
-  padding: 12px;
+  padding: 11px;
   width: 100%;
 
   @media (min-width: $tablet-width) {

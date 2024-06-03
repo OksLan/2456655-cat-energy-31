@@ -1,15 +1,21 @@
 .navlist {
-  position: relative;
-  display: none;
+  @media (width: $mobile-width-only) {
+    position: relative;
+    display: none;
+  }
 }
 
 .navlist--dropdown {
-  position: absolute;
-  width: 100%;
-  background-color: $basic-white;
-  z-index: 2;
+  @media (width: $mobile-width-only) {
+    position: absolute;
+    width: 100%;
+    background-color: $basic-white;
+    z-index: 2;
+  }
 }
 
 .navlist--opened {
-  display: block;
+  @media (width: $mobile-width-only) {
+    display: block;
+  }
 }
