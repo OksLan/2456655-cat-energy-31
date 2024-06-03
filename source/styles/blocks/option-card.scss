@@ -5,7 +5,7 @@
   background-color: $basic-grey;
 
   @media (min-width: $tablet-width) {
-    padding: 52px;
+    padding: 69px 53px 55px;
     min-height: 248px;
   }
 
@@ -42,11 +42,11 @@
   background-color: $basic-green;
 
   @media (min-width: $tablet-width) {
-    top: 10px;
+    top: 21px;
     left: auto;
     right: 10px;
     width: 200px;
-    height: 211px;
+    height: 200px;
   }
 
   @media (min-width: $desktop-width) {
@@ -96,11 +96,11 @@
   left: -8px;
 
   @media (min-width: $tablet-width) {
-    top: 55px;
+    top: 65px;
     left: auto;
-    right: -21px;
-    width: 268px;
-    height: 112px;
+    right: -24px;
+    width: 267px;
+    height: 111px;
   }
 
   @media (min-width: $desktop-width) {
@@ -126,7 +126,8 @@
   @media (min-width: $tablet-width) {
     font-size: 36px;
     line-height: 36px;
-    margin-left: 6px;
+    margin-left: 1px;
+    margin-bottom: 24px;
   }
 
   @media (min-width: $desktop-width) {
@@ -141,8 +142,7 @@
 
   @media (min-width: $tablet-width) {
     max-width: 340px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-bottom: 25px;
     font-size: 16px;
     line-height: 24px;
   }
@@ -179,18 +179,10 @@
   background-image: url("../../icons/stack.svg#arrow");
   width: 24px;
   height: 12px;
-  top: 58%;
-  left: 102px;
+  top: 55%;
+  right: 5px;
   transform: translateY(-50%);
   background-size: contain;
-
-  @media (min-width: $tablet-width) {
-    left: 120px;
-  }
-
-  @media (min-width: $desktop-width) {
-    left: 133px;
-  }
 }
 
 .option-card__link:hover::after {
