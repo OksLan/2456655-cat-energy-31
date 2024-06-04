@@ -5,12 +5,11 @@
   padding-bottom: 19px;
 
   @media (min-width: $tablet-width) {
-    margin-bottom: 4px;
     margin-right: 41px;
+    padding-bottom: 0;
   }
 
   @media (min-width: $desktop-width) {
     margin: 0;
-    padding-top: 6px;
   }
 }

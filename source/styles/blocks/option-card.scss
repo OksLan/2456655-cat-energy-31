@@ -179,10 +179,15 @@
   background-image: url("../../icons/stack.svg#arrow");
   width: 24px;
   height: 12px;
-  top: 55%;
-  right: 5px;
+  top: 59%;
+  right: 48%;
   transform: translateY(-50%);
   background-size: contain;
+
+  @media (min-width: $tablet-width) {
+    top: 57%;
+    right: 4%;
+  }
 }
 
 .option-card__link:hover::after {
