@@ -7,10 +7,14 @@
   line-height: 20px;
   width: 100%;
   text-decoration: none;
-  margin-top: 20px;
+  padding-top: 20px;
 
   @media (min-width: $tablet-width) {
     width: 168px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 0;
   }
 }
 
@@ -24,7 +28,6 @@
 
   @media (min-width: $desktop-width) {
     margin-left: 5px;
-    margin-top: -3px;
     padding-top: 12px;
   }
 
@@ -36,12 +39,17 @@
 .copyright-link__icon {
   fill: $special-grey-5;
 
-  &:hover,
-  &:focus {
-    fill: $basic-green;
+  @media (min-width: $desktop-width) {
+    padding-top: 7px;
   }
+}
 
-  &:active {
-    fill: rgba(104, 183, 56, 0.3);
-  }
+
+.copyright-link__icon:hover,
+.copyright-link__icon:focus {
+  fill: $basic-green;
+}
+
+.copyright-link__icon:active {
+  fill: rgba(104, 183, 56, 0.3);
 }

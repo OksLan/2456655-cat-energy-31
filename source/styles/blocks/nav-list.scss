@@ -24,7 +24,7 @@
     line-height: 30px;
     width: 600px;
     padding-top: 17px;
-    margin-left: 418px;
+    margin-left: 417px;
   }
 }
 
@@ -82,15 +82,11 @@
   @media (min-width: $tablet-width) {
     content: "";
     position: absolute;
-    left: -5px;
+    left: 0;
     right: 0;
-    bottom: -8px;
+    bottom: -9px;
     height: 2px;
     background-color: $basic-green;
-  }
-
-  @media (min-width: $desktop-width) {
-    bottom: -9px;
   }
 }
 
