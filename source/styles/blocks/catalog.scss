@@ -10,7 +10,7 @@
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: repeat(2, 324px);
-    gap: 48px 62px;
+    gap: 51px 60px;
     justify-content: center;
     margin-left: 0;
     margin-right: 0;
@@ -19,26 +19,7 @@
   @media (min-width: $desktop-width) {
     display: grid;
     grid-template-columns: repeat(4, 245px);
-    gap: 56px 80px;
+    gap: 58px 80px;
   }
 }
 
-.catalog__title {
-  font-family: $font-secondary;
-  font-size: 36px;
-  line-height: 36px;
-  color: $basic-black;
-  margin-top: 28px;
-  margin-bottom: 40px;
-
-  @media (min-width: $tablet-width) {
-    font-size: 60px;
-    line-height: 60px;
-    margin-bottom: 76px;
-    margin-top: 38px;
-  }
-
-  @media (min-width: $desktop-width) {
-    margin-bottom: 76px;
-  }
-}
