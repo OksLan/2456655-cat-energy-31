@@ -1,6 +1,6 @@
 .add-products {
   @media (min-width: $tablet-width) {
-    padding-top: 67px;
+    padding-top: 71px;
   }
 
   @media (min-width: $desktop-width) {
@@ -19,7 +19,7 @@
 .add-products__title {
   font-family: $font-secondary;
   color: $basic-black;
-  margin: 25px auto 21px;
+  margin: 23px auto 21px;
 
   @media (min-width: $tablet-width) {
     margin-top: 0;

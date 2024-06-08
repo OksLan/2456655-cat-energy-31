@@ -14,7 +14,7 @@
 .main-nav__logo-container {
   display: flex;
   align-items: center;
-  padding-top: 13px;
+  padding-top: 10px;
   padding-bottom: 14px;
 
   @media (min-width: $tablet-width) {
@@ -37,7 +37,6 @@
   padding: 0;
   cursor: pointer;
   color: $basic-black-1;
-  right: 1px;
 }
 
 .main-nav__toggle:hover,
